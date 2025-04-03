@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Task Management Assignment
 
-## Getting Started
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/hieunguyen098/task-manager.git
+   ```
+2. **Install Dependencies**
 
-First, run the development server:
+   ```bash
+   pnpm install
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   # run client and server apps
+   pnpm dev
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## **Description:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Build a **simple task management system** that allows users to manage task efficiently.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **Core Features**
 
-## Learn More
+- **View a list of tasks.**
+- **Add a new task.**
+- **Mark a task as completed.**
+- **Delete a task.**
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Server / API
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The data is available at `https://jsonplaceholder.typicode.com/todos`.
 
-## Deploy on Vercel
+1. **Source Code:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   - Provide a public GitHub repository with all frontend source code.
+   - Your submission should include:
+     - All **React and TypeScript files** (for the frontend).
+     - Any **assets, configurations, and dependencies** required to run the application.
+   - The backend is already provided, so candidates only need to implement the frontend.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Live Link (Optional):**
+   - You can deploy the website on a hosting platform (e.g., Vercel, Netlify) and provide the live link.
+   - This allows reviewers to test your application directly.
