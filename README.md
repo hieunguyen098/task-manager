@@ -1,16 +1,30 @@
 # Task Management Assignment
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/hieunguyen098/task-manager.git
-   ```
-2. **Install Dependencies**
+## 🚀 Getting Started
 
-   ```bash
-   pnpm install
+### Prerequisites
 
-   pnpm dev
-   ```
+- Node.js (version 18.x or higher)
+- npm (version 8.x or higher)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/hieunguyen098/task-manager.git
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:3000`
 
 ## 🌐 Live Demo
 
