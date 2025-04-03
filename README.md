@@ -9,7 +9,6 @@
    ```bash
    pnpm install
 
-   # run client and server apps
    pnpm dev
    ```
 
