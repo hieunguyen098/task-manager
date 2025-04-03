@@ -13,6 +13,11 @@
    pnpm dev
    ```
 
+## 🌐 Live Demo
+
+You can view the live demo of this application at: https://test-fe-assessment.vercel.app/. All task links have been shown on the homepage.
+
+
 ## **Description:**
 
 Build a **simple task management system** that allows users to manage task efficiently.
@@ -29,15 +34,3 @@ Build a **simple task management system** that allows users to manage task effic
 ## Server / API
 
 The data is available at `https://jsonplaceholder.typicode.com/todos`.
-
-1. **Source Code:**
-
-   - Provide a public GitHub repository with all frontend source code.
-   - Your submission should include:
-     - All **React and TypeScript files** (for the frontend).
-     - Any **assets, configurations, and dependencies** required to run the application.
-   - The backend is already provided, so candidates only need to implement the frontend.
-
-2. **Live Link (Optional):**
-   - You can deploy the website on a hosting platform (e.g., Vercel, Netlify) and provide the live link.
-   - This allows reviewers to test your application directly.
