@@ -1,5 +1,9 @@
 # Task Management Assignment
 
+## 🌐 Live Demo
+
+You can view the live demo of this application at: [https://task-manager-sage-nine-34.vercel.app/](https://task-manager-sage-nine-34.vercel.app/).
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -25,11 +29,6 @@ npm run dev
 ```
 
 The application will be available at `http://localhost:3000`
-
-## 🌐 Live Demo
-
-You can view the live demo of this application at: [https://task-manager-sage-nine-34.vercel.app/](https://task-manager-sage-nine-34.vercel.app/).
-
 
 ## **Description:**
 
