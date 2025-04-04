@@ -12,8 +12,7 @@ export function TaskItem({ task, toggleComplete, deleteTask }: TaskItemProps) {
   return (
     <motion.div
       className="p-4 flex items-center justify-between hover:bg-blue-50 group"
-      whileHover={{ backgroundColor: 'rgba(239, 246, 255, 0.65)' }}
-      initial={{ opacity: 0, y: -10 }}
+      initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.2 }}
       layout
