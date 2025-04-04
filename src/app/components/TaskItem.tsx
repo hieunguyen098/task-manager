@@ -23,7 +23,7 @@ export function TaskItem({ task, toggleComplete, deleteTask }: TaskItemProps) {
             type="checkbox"
             checked={task.completed}
             onChange={() => toggleComplete(task)}
-            className="h-5 w-5 text-blue-600 rounded-full border-gray-300 focus:ring-blue-500 transition-all"
+            className="h-5 w-5 text-blue-600 rounded-full border-gray-300 focus:ring-blue-500 transition-all cursor-pointer"
           />
           <AnimatePresence>
             {task.completed && (
@@ -51,7 +51,7 @@ export function TaskItem({ task, toggleComplete, deleteTask }: TaskItemProps) {
       </div>
       <motion.button
         onClick={() => deleteTask(task.id)}
-        className="text-gray-400 opacity-60 group-hover:opacity-100 hover:text-red-500 focus:outline-none transition-all"
+        className="text-gray-400 opacity-60 group-hover:opacity-100 hover:text-red-500 focus:outline-none transition-all cursor-pointer"
         aria-label="Delete task"
         whileHover={{ scale: 1.1, color: '#EF4444' }}
         whileTap={{ scale: 0.9 }}

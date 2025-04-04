@@ -44,14 +44,14 @@ export function AddTaskForm({ addTask }: AddTaskFormProps) {
             placeholder="What needs to be done?"
             className={`w-full px-4 py-2 pr-10 border ${
               isInputActive ? 'border-blue-400' : 'border-gray-300'
-            } rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-200`}
+            } rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-200 `}
           />
           <AnimatePresence>
             {title && (
               <motion.button
                 type="button"
                 onClick={() => setTitle('')}
-                className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
+                className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600 cursor-pointer"
                 aria-label="Clear input"
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -82,7 +82,7 @@ export function AddTaskForm({ addTask }: AddTaskFormProps) {
           disabled={!title.trim()}
           className={`px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all ${
             title.trim()
-              ? 'bg-blue-600 text-white hover:bg-blue-700'
+              ? 'bg-blue-600 text-white hover:bg-blue-700 cursor-pointer'
               : 'bg-gray-200 text-gray-400 cursor-not-allowed'
           }`}
           initial={{ opacity: 0, x: 20 }}
